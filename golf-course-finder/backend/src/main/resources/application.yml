@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: golf-course-finder
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: ${PORT:8080}
+  compression:
+    enabled: true

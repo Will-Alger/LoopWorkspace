@@ -1,0 +1,14 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Built frontend assets packaged into the backend
+backend/src/main/resources/static/
+
+# Backend build output
+backend/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
